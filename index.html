@@ -348,13 +348,13 @@
         </div>
       </header>
 
-      <div class="container">
+      <div class="app__container">
         <div class="grid">
-          <div class="grid__row">
+          <div class="grid__row app__content">
             <div class="grid__column-2">
               <nav class="category">
                 <h3 class="category__heading">
-                  <i class="fas fa-list"></i>
+                  <i class="category__heading-icon fas fa-list"></i>
                   Danh mục
                 </h3>
       
@@ -372,6 +372,263 @@
               </nav>
             </div>
             <div class="grid__column-10">
+              <div class="home-filter">
+                <span class="home-filter__label">
+                  Sắp xếp theo
+                </span>
+                <button class="home-filter__btn btn">Phổ biến</button>
+                <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                <button class="home-filter__btn btn">Bán chạy</button>
+
+                <div class="select-input">
+                  <span class="select-input__label">Giá</span>
+                  <i class="select-input__icon fas fa-angle-down"></i>
+
+                  <!-- List option -->
+                  <ul class="select-input__list">
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                    </li>
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="home-filter__page">
+                  <span class="home-filter__page-num">
+                    <span class="home-filter__page-current">1</span>/14
+                  </span>
+
+
+                  <div class="home-filter__page-control">
+                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                      <i class="home-filter__page-icon fas fa-angle-left"></i>
+                    </a>
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- home-product -->
+              <div class="home-product">
+                <!-- Grid -> row -> column -->
+                  <div class="grid__row">
+
+                    <div class="grid__column-2-4">
+                      <!-- product -item -->
+                      <div class="home-product-item">
+                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f1c41fd221366bf7ff1e56e0991d3e2a);"></div>
+                        <h4 class="home-product-item__name">Bộ dưỡng chống lão hóa làm mờ nếp nhăn,
+                           dưỡng da sáng hồng mịn màng Ohui age recovery special 6 món</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">2.500.000đ</span>
+                            <span class="home-product-item__price-current">1.250.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                          <span class="home-product-item__like home-product-item__like--liked">
+                            <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                            <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                          </span>
+
+                          <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <span class="home-product-item__sold">88 đã bán</span>
+                        </div>
+
+                        <div class="home-product-item__origin">
+                          <span class="home-product-item__brand">O hui</span>
+                          <span class="home-product-item__origin-name">Nhật bản</span>
+                        </div>
+                        <div class="home-product-item__favourite">
+                          <i class="fa-solid fa-check"></i>
+                          <span> Yêu thích</span>
+                        </div>
+
+                        <div class="home-product-item__sale-off">
+                          <span class="home-product-item__sale-off-percent">43%</span>
+                          <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                      <!-- product -item -->
+                      <div class="home-product-item">
+                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f1c41fd221366bf7ff1e56e0991d3e2a);"></div>
+                        <h4 class="home-product-item__name">Bộ dưỡng chống lão hóa làm mờ nếp nhăn,
+                           dưỡng da sáng hồng mịn màng Ohui age recovery special 6 món</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">2.500.000đ</span>
+                            <span class="home-product-item__price-current">1.250.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                          <span class="home-product-item__like home-product-item__like--liked">
+                            <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                            <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                          </span>
+
+                          <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <span class="home-product-item__sold">88 đã bán</span>
+                        </div>
+
+                        <div class="home-product-item__origin">
+                          <span class="home-product-item__brand">O hui</span>
+                          <span class="home-product-item__origin-name">Nhật bản</span>
+                        </div>
+                        <div class="home-product-item__favourite">
+                          <i class="fa-solid fa-check"></i>
+                          <span> Yêu thích</span>
+                        </div>
+
+                        <div class="home-product-item__sale-off">
+                          <span class="home-product-item__sale-off-percent">43%</span>
+                          <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                      <!-- product -item -->
+                      <div class="home-product-item">
+                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f1c41fd221366bf7ff1e56e0991d3e2a);"></div>
+                        <h4 class="home-product-item__name">Bộ dưỡng chống lão hóa làm mờ nếp nhăn,
+                           dưỡng da sáng hồng mịn màng Ohui age recovery special 6 món</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">2.500.000đ</span>
+                            <span class="home-product-item__price-current">1.250.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                          <span class="home-product-item__like home-product-item__like--liked">
+                            <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                            <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                          </span>
+
+                          <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <span class="home-product-item__sold">88 đã bán</span>
+                        </div>
+
+                        <div class="home-product-item__origin">
+                          <span class="home-product-item__brand">O hui</span>
+                          <span class="home-product-item__origin-name">Nhật bản</span>
+                        </div>
+                        <div class="home-product-item__favourite">
+                          <i class="fa-solid fa-check"></i>
+                          <span> Yêu thích</span>
+                        </div>
+
+                        <div class="home-product-item__sale-off">
+                          <span class="home-product-item__sale-off-percent">43%</span>
+                          <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                      <!-- product -item -->
+                      <div class="home-product-item">
+                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f1c41fd221366bf7ff1e56e0991d3e2a);"></div>
+                        <h4 class="home-product-item__name">Bộ dưỡng chống lão hóa làm mờ nếp nhăn,
+                           dưỡng da sáng hồng mịn màng Ohui age recovery special 6 món</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">2.500.000đ</span>
+                            <span class="home-product-item__price-current">1.250.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                          <span class="home-product-item__like home-product-item__like--liked">
+                            <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                            <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                          </span>
+
+                          <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <span class="home-product-item__sold">88 đã bán</span>
+                        </div>
+
+                        <div class="home-product-item__origin">
+                          <span class="home-product-item__brand">O hui</span>
+                          <span class="home-product-item__origin-name">Nhật bản</span>
+                        </div>
+                        <div class="home-product-item__favourite">
+                          <i class="fa-solid fa-check"></i>
+                          <span> Yêu thích</span>
+                        </div>
+
+                        <div class="home-product-item__sale-off">
+                          <span class="home-product-item__sale-off-percent">43%</span>
+                          <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="grid__column-2-4">
+                      <!-- product -item -->
+                      <div class="home-product-item">
+                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f1c41fd221366bf7ff1e56e0991d3e2a);"></div>
+                        <h4 class="home-product-item__name">Bộ dưỡng chống lão hóa làm mờ nếp nhăn,
+                           dưỡng da sáng hồng mịn màng Ohui age recovery special 6 món</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">2.500.000đ</span>
+                            <span class="home-product-item__price-current">1.250.000đ</span>
+                        </div>
+                        <div class="home-product-item__action">
+                          <span class="home-product-item__like home-product-item__like--liked">
+                            <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                            <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                          </span>
+
+                          <div class="home-product-item__rating">
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="home-product-item__star-gold fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <span class="home-product-item__sold">88 đã bán</span>
+                        </div>
+
+                        <div class="home-product-item__origin">
+                          <span class="home-product-item__brand">O hui</span>
+                          <span class="home-product-item__origin-name">Nhật bản</span>
+                        </div>
+                        <div class="home-product-item__favourite">
+                          <i class="fa-solid fa-check"></i>
+                          <span> Yêu thích</span>
+                        </div>
+
+                        <div class="home-product-item__sale-off">
+                          <span class="home-product-item__sale-off-percent">43%</span>
+                          <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
